@@ -1,6 +1,6 @@
 Pac Man Clone
 ====
-This projects show how to build a simple multiplatform game (a simple Pac Man Clone) - using openGL and openAL
+This project shows how to build a simple multiplatform game (a simple Pac Man Clone) - using openGL and openAL
 CodeBlocks and VS2008 solutions are provided
 
 Slides for this lesson (in Italian language) are available here: http://slides.com/marcogiorgini/a-simple-2d-game#/
