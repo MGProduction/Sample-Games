@@ -1,0 +1,409 @@
+# depslib dependency file v1.0
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutbufferdata.c
+	"alutInternal.h"
+
+1379849005 c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1367858258 c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1355258155 c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alc.h
+
+1355258155 c:\users\marco giorgini\documents\codeblocks\pacman.010\al\al.h
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutcodec.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutinit.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutversion.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\al\alutwaveform.c
+	"alutInternal.h"
+	<math.h>
+	<string.h>
+
+1393362071 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\l_openal.c
+	"l_module.h"
+
+1393446192 c:\users\marco giorgini\documents\codeblocks\pacman.010\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1393361813 c:\users\marco giorgini\documents\codeblocks\pacman.010\const.h
+
+1393440773 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\l_opengl.c
+	"l_module.h"
+
+1393362206 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
+1393445691 c:\users\marco giorgini\documents\codeblocks\pacman.010\g_main.h
+	"l_module.h"
+
+1393445691 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\g_main.c
+	"g_main.h"
+
+1393446333 source:c:\users\marco giorgini\documents\codeblocks\pacman.010\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutbufferdata.c
+	"alutInternal.h"
+
+1379849005 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1367858258 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1355258155 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alc.h
+
+1355258155 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\al.h
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutcodec.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutinit.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1358976051 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\al\alutversion.c
+	"alutInternal.h"
+
+1393440773 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\l_opengl.c
+	"l_module.h"
+
+1393771334 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1393361813 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\const.h
+
+1393883677 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\g_main.c
+	"g_main.h"
+
+1393445691 c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\g_main.h
+	"l_module.h"
+
+1393771320 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1393883647 source:c:\users\marco giorgini\dropbox\dev\corsi\newgame2\pacman.010\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutbufferdata.c
+	"alutInternal.h"
+
+1379849005 d:\bag\corso\lezione.2\pacman.010\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1367858258 d:\bag\corso\lezione.2\pacman.010\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1355258155 d:\bag\corso\lezione.2\pacman.010\al\alc.h
+
+1355258155 d:\bag\corso\lezione.2\pacman.010\al\al.h
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutcodec.c
+	"alutInternal.h"
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutinit.c
+	"alutInternal.h"
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1358976051 source:d:\bag\corso\lezione.2\pacman.010\al\alutversion.c
+	"alutInternal.h"
+
+1393883677 source:d:\bag\corso\lezione.2\pacman.010\g_main.c
+	"g_main.h"
+
+1393445691 d:\bag\corso\lezione.2\pacman.010\g_main.h
+	"l_module.h"
+
+1393771334 d:\bag\corso\lezione.2\pacman.010\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1393361813 d:\bag\corso\lezione.2\pacman.010\const.h
+
+1393771320 source:d:\bag\corso\lezione.2\pacman.010\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1393883921 source:d:\bag\corso\lezione.2\pacman.010\l_openal.c
+	"l_module.h"
+	"al/al.h"
+
+1393440773 source:d:\bag\corso\lezione.2\pacman.010\l_opengl.c
+	"l_module.h"
+
+1393883647 source:d:\bag\corso\lezione.2\pacman.010\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutbufferdata.c
+	"alutInternal.h"
+
+1379849005 e:\bag\corso\lezione.2\pacman.010\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1367858258 e:\bag\corso\lezione.2\pacman.010\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1355258155 e:\bag\corso\lezione.2\pacman.010\al\alc.h
+
+1355258155 e:\bag\corso\lezione.2\pacman.010\al\al.h
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutcodec.c
+	"alutInternal.h"
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutinit.c
+	"alutInternal.h"
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1358976051 source:e:\bag\corso\lezione.2\pacman.010\al\alutversion.c
+	"alutInternal.h"
+
+1393883677 source:e:\bag\corso\lezione.2\pacman.010\g_main.c
+	"g_main.h"
+
+1393445691 e:\bag\corso\lezione.2\pacman.010\g_main.h
+	"l_module.h"
+
+1393771334 e:\bag\corso\lezione.2\pacman.010\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1393361813 e:\bag\corso\lezione.2\pacman.010\const.h
+
+1393771320 source:e:\bag\corso\lezione.2\pacman.010\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1393883921 source:e:\bag\corso\lezione.2\pacman.010\l_openal.c
+	"l_module.h"
+	"al/al.h"
+
+1393440773 source:e:\bag\corso\lezione.2\pacman.010\l_opengl.c
+	"l_module.h"
+
+1393883647 source:e:\bag\corso\lezione.2\pacman.010\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
