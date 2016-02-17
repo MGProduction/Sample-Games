@@ -1,9 +1,10 @@
 # Object files
 *.o
 *.ko
+*.pdb
 
 # Libraries
-*.lib
+# *.lib
 *.a
 
 # Shared objects (inc. Windows DLLs)
