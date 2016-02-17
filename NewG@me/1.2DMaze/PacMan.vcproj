@@ -2,8 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9,00"
-	Name="PacMan"
+	Name="PacManClone"
 	ProjectGUID="{FDC06625-6B9B-4E32-AC3E-58BBB5767448}"
+	RootNamespace="PacMan"
 	TargetFrameworkVersion="0"
 	>
 	<Platforms>
@@ -49,6 +50,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories=".,lib,lib\al"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS"
 				StringPooling="true"
 				RuntimeLibrary="0"
@@ -135,6 +137,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
+				AdditionalIncludeDirectories=".,lib,lib\al"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -197,24 +200,8 @@
 			Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat"
 			>
 			<File
-				RelativePath="win_main.c"
+				RelativePath=".\os\win_main.c"
 				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
 			</File>
 		</Filter>
 		<Filter
@@ -225,131 +212,67 @@
 				RelativePath="const.h"
 				>
 			</File>
+			<File
+				RelativePath=".\resource.h"
+				>
+			</File>
 		</Filter>
 		<Filter
 			Name="Libraries"
 			>
 			<File
-				RelativePath="l_module.c"
-				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-			</File>
-			<File
-				RelativePath="l_module.h"
+				RelativePath=".\lib\l_module.c"
 				>
 			</File>
 			<File
-				RelativePath="l_openAL.c"
+				RelativePath=".\lib\l_module.h"
 				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
 			</File>
 			<File
-				RelativePath="l_openGL.c"
+				RelativePath=".\lib\l_openAL.c"
 				>
-				<FileConfiguration
-					Name="Release|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
-				<FileConfiguration
-					Name="Debug|Win32"
-					>
-					<Tool
-						Name="VCCLCompilerTool"
-						PreprocessorDefinitions=""
-					/>
-				</FileConfiguration>
+			</File>
+			<File
+				RelativePath=".\lib\l_openGL.c"
+				>
 			</File>
 			<Filter
 				Name="AL"
 				>
 				<File
-					RelativePath=".\al\al.h"
+					RelativePath=".\lib\al\alutBufferData.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alc.h"
+					RelativePath=".\lib\al\alutCodec.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alext.h"
+					RelativePath=".\lib\al\alutError.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alut.h"
+					RelativePath=".\lib\al\alutInit.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alutBufferData.c"
+					RelativePath=".\lib\al\alutInputStream.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alutCodec.c"
+					RelativePath=".\lib\al\alutLoader.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alutError.c"
+					RelativePath=".\lib\al\alutOutputStream.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alutInit.c"
+					RelativePath=".\lib\al\alutUtil.c"
 					>
 				</File>
 				<File
-					RelativePath=".\al\alutInputStream.c"
-					>
-				</File>
-				<File
-					RelativePath=".\al\alutInternal.h"
-					>
-				</File>
-				<File
-					RelativePath=".\al\alutLoader.c"
-					>
-				</File>
-				<File
-					RelativePath=".\al\alutOutputStream.c"
-					>
-				</File>
-				<File
-					RelativePath=".\al\alutUtil.c"
-					>
-				</File>
-				<File
-					RelativePath=".\al\alutVersion.c"
+					RelativePath=".\lib\al\alutVersion.c"
 					>
 				</File>
 			</Filter>
@@ -386,6 +309,10 @@
 			Name="Resource Files"
 			Filter="ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"
 			>
+			<File
+				RelativePath=".\PacManClone.rc"
+				>
+			</File>
 		</Filter>
 	</Files>
 	<Globals>

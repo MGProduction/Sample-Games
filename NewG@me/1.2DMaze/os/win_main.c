@@ -38,7 +38,7 @@
 #include "g_main.h"
 
 #ifdef SND_OPENAL
-#pragma comment(lib, "al/openal32.lib")
+#pragma comment(lib, "lib/al/openal32.lib")
 #endif
 
 #ifdef GFX_OPENGL
