@@ -411,3 +411,106 @@
 	<gl/gl.h>
 	"g_main.h"
 
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutbufferdata.c
+	"alutInternal.h"
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alc.h
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\al.h
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutcodec.c
+	"alutInternal.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutinit.c
+	"alutInternal.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\al\alutversion.c
+	"alutInternal.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\g_main.c
+	"g_main.h"
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\g_main.h
+	"l_module.h"
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1455742608 c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\const.h
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\l_openal.c
+	"l_module.h"
+	"al/al.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\l_opengl.c
+	"l_module.h"
+
+1455742608 source:c:\users\marco giorgini\documents\github\apps\newg@me\z@xxonclone\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
