@@ -97,8 +97,60 @@
 1455658750 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\lib\l_opengl.c
 	"l_module.h"
 
-1455658750 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\os\win_main.c
+1455744825 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\os\win_main.c
 	<windows.h>
 	<gl/gl.h>
 	"g_main.h"
+
+1353751060 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.1.c
+	<windows.h>
+	<gl/gl.h>
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.2.c
+	"g_main.2.h"
+
+1366552474 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.2.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.3.c
+	"g_main.3.h"
+
+1366552474 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.3.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.4.c
+	"g_main.4.h"
+
+1366553969 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.4.h
+	"l_module.h"
+
+1455745696 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.5.c
+	"g_main.5.h"
+
+1366555167 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.5.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.6.c
+	"g_main.6.h"
+
+1393439172 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.6.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.7.c
+	"g_main.7.h"
+
+1366544742 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.7.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.8.c
+	"g_main.8.h"
+
+1366544742 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.8.h
+	"l_module.h"
+
+1455745672 source:c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.9.c
+	"g_main.9.h"
+
+1366544742 c:\users\marco giorgini\documents\github\apps\newg@me\1.2dmaze\g_main.9.h
+	"l_module.h"
 
