@@ -151,6 +151,7 @@
 		</Unit>
 		<Unit filename="g_main.c">
 			<Option compilerVar="CC" />
+			<Option link="0" />
 		</Unit>
 		<Unit filename="g_main.h" />
 		<Unit filename="l_module.h" />
@@ -189,6 +190,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib\l_openGL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="os\win_main.c">

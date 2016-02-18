@@ -43,19 +43,22 @@
 // --------------------------------------------------------------------
 
 /*
-int         g_show=1|  // background / viewport
-                   2|  // collision
-                   4|  // diamands
-                   8|  // worms
-                   16| // worms collisions
-                   32| // hud
-                   64| // home
+int         g_show=1|  // background / viewport '1'
+                   2|  // collision             '2'
+                   4|  // diamands              '3'
+                   8|  // worms                 '4'
+                   16| // worms collisions      '5'
+                   32| // hud                   '6'
+                   64| // home                  '7'
                    0
                    ;
 */
 
-int         g_show=1|2|4|8|16|32|64;//1|2|4|8|16|32|64
-                   //;
+// set bSHOWTIME to 1 when you want to select the elements one by one to show
+// how the game has been made, piece after piece
+
+int         bSHOWTIME=0;
+int         g_show=1|2|4|8|16|32|64;
 
 WORLD       g_W;
 GAMELOOP    g_G;
@@ -1247,6 +1250,11 @@ int GAME_init(WORLD*w,const char*res_basepath,float width,float height)
     GFXRES_init();
     SNDRES_init();
 
+    if(bSHOWTIME==0)
+     g_show=-1;
+    else
+     g_show=0;
+
     if(g_show&64)
      HOME_set(w);
     else
@@ -1270,6 +1278,36 @@ int GAME_reset(WORLD*w)
 
 void GAME_loop(WORLD*w)
 {
+    #if defined(OS_WIN32)
+        if(bSHOWTIME)
+         {
+          if(GetKeyState('0') & 0x80 )
+          {
+           if(g_G.draw==INGAME_draw)
+             INGAME_set(w);
+           else
+             HOME_set(w);
+          }
+          if(GetKeyState('1') & 0x80 )
+           g_show|=1;
+          if(GetKeyState('2') & 0x80 )
+           g_show|=2;
+          if(GetKeyState('3') & 0x80 )
+           g_show|=4;
+          if(GetKeyState('4') & 0x80 )
+           g_show|=8;
+          if(GetKeyState('5') & 0x80 )
+           g_show|=16;
+          if(GetKeyState('6') & 0x80 )
+           g_show|=32;
+          if(GetKeyState('7') & 0x80 )
+           g_show|=64;
+          if(GetKeyState('8') & 0x80 )
+           g_show|=128;
+          if(GetKeyState('9') & 0x80 )
+           g_show|=256;
+         }
+    #endif
     if(os_PAUSE)
         ;
     else
