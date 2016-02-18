@@ -102,7 +102,11 @@ int    LEVEL_reset(WORLD*w);
 
 int GFXRES_init()
 {
+    #if defined(HAVE_STBIMAGE)
+    g_fontID=tex_read("font.png",4);
+    #else
     g_fontID=tex_readTGA("font.tga",4);
+    #endif
     return (g_fontID.textID!=-1);
 }
 
@@ -1130,8 +1134,13 @@ void LEVEL_gfxinit(WORLD*w)
 {
  char nm[256];
  TEXATL_read("ken",&g_ingamescene.textID);
+ #if defined(HAVE_STBIMAGE)
+ sprintf(nm,"background.%d.jpg",w->world);
+ g_ingamescene.backID=tex_read(nm,0);
+ #else
  sprintf(nm,"background.%d.tga",w->world);
  g_ingamescene.backID=tex_readTGA(nm,0);
+ #endif
 }
 
 void LEVEL_gfxreset(WORLD*w)

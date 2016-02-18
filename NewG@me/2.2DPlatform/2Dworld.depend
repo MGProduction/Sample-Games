@@ -473,7 +473,7 @@
 1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\al\alutversion.c
 	"alutInternal.h"
 
-1455822253 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\g_main.c
+1455835494 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\g_main.c
 	"g_main.h"
 
 1394396533 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\g_main.h
@@ -499,7 +499,7 @@
 	<stdlib.h>
 	<math.h>
 
-1393532923 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\const.h
+1455833386 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\const.h
 
 1394389427 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\l\l_module.c
 	"l_module.h"
@@ -514,8 +514,113 @@
 1394238356 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\l\l_opengl.c
 	"l_module.h"
 
-1394237460 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\os\win_main.c
+1455834927 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\os\win_main.c
 	<windows.h>
 	<gl/gl.h>
 	"g_main.h"
+
+1455833655 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_module.h
+	"const.h"
+	<windows.h>
+	<string.h>
+	<gl/gl.h>
+	<string.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	"al/al.h"
+	"al/alc.h"
+	"al/alut.h"
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"stb/stb_image.h"
+
+1355258155 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\al.h
+
+1355258155 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alc.h
+
+1367858258 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alut.h
+	"alc.h"
+	"al.h"
+	<OpenAL/alc.h>
+	<OpenAL/al.h>
+	<AL/al.h>
+	<AL/alc.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutbufferdata.c
+	"alutInternal.h"
+
+1394397736 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutinternal.h
+	"config.h"
+	<stdlib.h>
+	<stdint.h>
+	<basetsd.h>
+	"alut.h"
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutcodec.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\aluterror.c
+	"alutInternal.h"
+	<stdio.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutinit.c
+	"alutInternal.h"
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutinputstream.c
+	"alutInternal.h"
+	<stdio.h>
+	<string.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutloader.c
+	"alutInternal.h"
+	<ctype.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutoutputstream.c
+	"alutInternal.h"
+	<string.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alututil.c
+	"alutInternal.h"
+	<time.h>
+	<errno.h>
+	<unistd.h>
+	<windows.h>
+
+1358976051 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\al\alutversion.c
+	"alutInternal.h"
+
+1455835326 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_module.c
+	"l_module.h"
+	<sys/time.h>
+	"zip/unzip.h"
+
+1394213439 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_openal.c
+	"l_module.h"
+	"../al/al.h"
+	"al/al.h"
+
+1394238356 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_opengl.c
+	"l_module.h"
+
+1451851859 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\stb\stb_image.h
+	<stdio.h>
+
+1451851859 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\stb\stb_image.c
+	"stb_image.h"
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<memory.h>
+	<assert.h>
+	<stdarg.h>
 

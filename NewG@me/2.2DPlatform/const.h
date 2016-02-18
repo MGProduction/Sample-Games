@@ -14,4 +14,6 @@
 #define GFX_OPENGL
 #define SND_OPENAL
 
+#define HAVE_STBIMAGE
+
 #endif // CONST_H_INCLUDED

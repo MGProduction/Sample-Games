@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories=".,l"
+				AdditionalIncludeDirectories=".,lib"
 				PreprocessorDefinitions="WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -115,7 +115,7 @@
 				Name="VCCLCompilerTool"
 				Optimization="2"
 				EnableIntrinsicFunctions="true"
-				AdditionalIncludeDirectories=".,l"
+				AdditionalIncludeDirectories=".,lib"
 				PreprocessorDefinitions="WIN32;NDEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS"
 				RuntimeLibrary="2"
 				EnableFunctionLevelLinking="true"
@@ -188,78 +188,90 @@
 				Name="Libraries"
 				>
 				<File
-					RelativePath=".\l\l_module.c"
+					RelativePath=".\lib\l_module.c"
 					>
 				</File>
 				<File
-					RelativePath=".\l\l_module.h"
+					RelativePath=".\lib\l_module.h"
 					>
 				</File>
 				<File
-					RelativePath=".\l\l_openAL.c"
+					RelativePath=".\lib\l_openAL.c"
 					>
 				</File>
 				<File
-					RelativePath=".\l\l_openGL.c"
+					RelativePath=".\lib\l_openGL.c"
 					>
 				</File>
 				<Filter
 					Name="AL"
 					>
 					<File
-						RelativePath=".\al\al.h"
+						RelativePath=".\lib\al\al.h"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alc.h"
+						RelativePath=".\lib\al\alc.h"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alext.h"
+						RelativePath=".\lib\al\alext.h"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alut.h"
+						RelativePath=".\lib\al\alut.h"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutBufferData.c"
+						RelativePath=".\lib\al\alutBufferData.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutCodec.c"
+						RelativePath=".\lib\al\alutCodec.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutError.c"
+						RelativePath=".\lib\al\alutError.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutInit.c"
+						RelativePath=".\lib\al\alutInit.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutInputStream.c"
+						RelativePath=".\lib\al\alutInputStream.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutInternal.h"
+						RelativePath=".\lib\al\alutInternal.h"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutLoader.c"
+						RelativePath=".\lib\al\alutLoader.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutOutputStream.c"
+						RelativePath=".\lib\al\alutOutputStream.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutUtil.c"
+						RelativePath=".\lib\al\alutUtil.c"
 						>
 					</File>
 					<File
-						RelativePath=".\al\alutVersion.c"
+						RelativePath=".\lib\al\alutVersion.c"
+						>
+					</File>
+				</Filter>
+				<Filter
+					Name="STB"
+					>
+					<File
+						RelativePath=".\lib\stb\stb_image.c"
+						>
+					</File>
+					<File
+						RelativePath=".\lib\stb\stb_image.h"
 						>
 					</File>
 				</Filter>
@@ -268,7 +280,7 @@
 				Name="OS"
 				>
 				<File
-					RelativePath=".\win_main.c"
+					RelativePath=".\os\win_main.c"
 					>
 				</File>
 			</Filter>
