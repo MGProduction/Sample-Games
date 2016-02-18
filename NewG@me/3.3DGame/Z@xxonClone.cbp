@@ -5,10 +5,10 @@
 		<Option title="Z@xxonClone" />
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
-		<Option virtualFolders="Game\;Library\;Library\Al\;" />
 		<Build>
 			<Target title="Debug">
 				<Option output="Z@xxonClone" prefix_auto="1" extension_auto="1" />
+				<Option working_dir=".\bin" />
 				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -31,93 +31,62 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add directory="." />
+			<Add directory="lib" />
 		</Compiler>
 		<Linker>
 			<Add library="opengl32" />
 			<Add library="glu32" />
 			<Add library="gdi32" />
-			<Add library="al\OpenAL32.lib" />
+			<Add library="lib\al\OpenAL32.lib" />
 		</Linker>
-		<Unit filename="al\al.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alc.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alext.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alut.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutBufferData.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutCodec.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutError.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutInit.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutInputStream.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutInternal.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutLoader.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutOutputStream.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutUtil.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\alutVersion.c">
-			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\efx-creative.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\efx-presets.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
-		<Unit filename="al\efx.h">
-			<Option virtualFolder="Library\Al\" />
-		</Unit>
 		<Unit filename="const.h" />
 		<Unit filename="g_main.c">
 			<Option compilerVar="CC" />
-			<Option virtualFolder="Game\" />
 		</Unit>
 		<Unit filename="g_main.h" />
-		<Unit filename="l_module.c">
+		<Unit filename="lib\al\alutBufferData.c">
 			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\" />
 		</Unit>
-		<Unit filename="l_module.h" />
-		<Unit filename="l_openAL.c">
+		<Unit filename="lib\al\alutCodec.c">
 			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\" />
 		</Unit>
-		<Unit filename="l_openGL.c">
+		<Unit filename="lib\al\alutError.c">
 			<Option compilerVar="CC" />
-			<Option virtualFolder="Library\" />
 		</Unit>
-		<Unit filename="win_main.c">
+		<Unit filename="lib\al\alutInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\al\alutInputStream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\al\alutLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\al\alutOutputStream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\al\alutUtil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\al\alutVersion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\l_module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\l_module.h" />
+		<Unit filename="lib\l_openAL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\l_openGL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\stb\stb_image.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib\stb\stb_image.h" />
+		<Unit filename="os\win_main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

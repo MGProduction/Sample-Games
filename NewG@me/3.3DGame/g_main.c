@@ -154,9 +154,15 @@ void MATCH_reset(WORLD*w)
 
 int GFXRES_init()
 {
+    #if defined(HAVE_STBIMAGE)
+    g_textID[0]=tex_read("texture.jpg",0); // http://www.art.eonworks.com/gallery/texture/metal_textures-200514.html
+    g_textID[1]=tex_read("skymap.jpg",0); // http://www.art.eonworks.com/gallery/texture/metal_textures-200514.html
+    g_fontID=tex_read("font.png",0);
+    #else
     g_textID[0]=tex_readTGA("texture.tga",0); // http://www.art.eonworks.com/gallery/texture/metal_textures-200514.html
     g_textID[1]=tex_readTGA("skymap.tga",0); // http://www.art.eonworks.com/gallery/texture/metal_textures-200514.html
     g_fontID=tex_readTGA("font.tga",0);
+    #endif
 
     quickmesh_readMD2(&g_meshSHIP,"ship.md2",&g_shipID);
 
