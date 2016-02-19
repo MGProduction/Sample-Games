@@ -1,9 +1,8 @@
 Z@xxonClone
 ====
-This project shows how to build a simple multiplatform game (a simple 3D game - vaguely inspired by Zaxxon) - using openGL and openAL
-
- CodeBlocks and VS2008 solutions are provided
- Slides for this lesson (in Italian language) are available here: http://slides.com/marcogiorgini/a-simple-3d-game#/
+This project shows how to build a simple multiplatform game (a simple 3D game - vaguely inspired by Zaxxon) - using openGL and openAL.
+CodeBlocks and VS2008 solutions are provided.
+Slides for this lesson (in Italian language) are available here: http://slides.com/marcogiorgini/a-simple-3d-game#/
 
 ######The game uses these resources:######
  SHIP MODEL from: http://www.3drt.com [free models collection]
