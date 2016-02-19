@@ -13,3 +13,9 @@ http://kenney.nl/post/platformer-art-assets-deluxe
 
 FONT from http://www.bigmessowires.com/
 http://www.bigmessowires.com/atarifont.png
+
+
+The game uses these libraries
+openGL
+openAL + alut
+stbi-1.33 - public domain JPEG/PNG reader - http://nothings.org/stb_image.c
