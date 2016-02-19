@@ -91,7 +91,7 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="lib\stb\stb_image.h" />
-		<Unit filename="os\win_main.c">
+		<Unit filename="os\win\win_main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

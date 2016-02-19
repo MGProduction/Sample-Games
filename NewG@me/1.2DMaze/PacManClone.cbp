@@ -43,42 +43,6 @@
 			<Add library="gdi32" />
 			<Add library="lib\al\OpenAL32.lib" />
 		</Linker>
-		<Unit filename="al\alutBufferData.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutCodec.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutError.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutInit.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutInputStream.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutLoader.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutOutputStream.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutUtil.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
-		<Unit filename="al\alutVersion.c">
-			<Option compilerVar="CC" />
-			<Option target="Release" />
-		</Unit>
 		<Unit filename="const.h" />
 		<Unit filename="g_main.1.c">
 			<Option compilerVar="CC" />
@@ -195,7 +159,7 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="os\win_main.c">
+		<Unit filename="os\win\win_main.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

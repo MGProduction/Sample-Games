@@ -624,3 +624,8 @@
 	<assert.h>
 	<stdarg.h>
 
+1455834927 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\os\win\win_main.c
+	<windows.h>
+	<gl/gl.h>
+	"g_main.h"
+
