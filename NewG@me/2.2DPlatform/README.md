@@ -16,6 +16,9 @@ http://www.bigmessowires.com/atarifont.png
 
 
 The game uses these libraries
+
 openGL
+
 openAL + alut
+
 stbi-1.33 - public domain JPEG/PNG reader - http://nothings.org/stb_image.c
