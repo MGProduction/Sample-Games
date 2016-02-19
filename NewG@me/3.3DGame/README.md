@@ -21,4 +21,9 @@ TEXTURE from www.philipk.net | Philip Klevestav
 http://www.philipk.net/portfolio/textures/ancient_collection.zip
 Licence: Creative Commons Attribution 3.0 Unported License.
 
+The game uses these libraries
+
+openGL
+openAL + alut
+stbi-1.33 - public domain JPEG/PNG reader - http://nothings.org/stb_image.c
 
