@@ -31,11 +31,7 @@
    --------------------------------------------------------------
 */
 #include "l_module.h"
-#if defined(OS_IPHONE)
-#include "../al/al.h"
-#else
 #include "al/al.h"
-#endif
 
 ALvoid * alutLoadMemoryFromFileImage (const ALvoid *data, ALsizei length,
                                       ALenum *format, ALsizei *size,

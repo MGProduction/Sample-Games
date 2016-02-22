@@ -11,17 +11,26 @@
 
 #include <stdlib.h>
  
+#ifdef WIN32
 #define HAVE_STDINT_H 0
 #define HAVE_STAT 1
 #define HAVE_NANOSLEEP 0
 #define HAVE_TIME_H 1
 #define HAVE_SLEEP 1
 #define HAVE_WINDOWS_H 1
+#else
+#define HAVE_STDINT_H 0
+#define HAVE_STAT 1
+#define HAVE_NANOSLEEP 1
+#define HAVE_TIME_H 1
+#define HAVE_SLEEP 1
+#define HAVE_WINDOWS_H 0
+#endif
 
 #if HAVE_STDINT_H
 #include <stdint.h>
 #elif _MSC_VER < 1300
-typedef char int8_t;
+//typedef char int8_t;
 typedef unsigned char uint8_t;
 typedef short int16_t;
 typedef unsigned short uint16_t;
