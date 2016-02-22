@@ -260,7 +260,7 @@
 				Name="OS"
 				>
 				<File
-					RelativePath=".\os\win_main.c"
+					RelativePath=".\os\win\win_main.c"
 					>
 				</File>
 			</Filter>
