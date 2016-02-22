@@ -129,19 +129,19 @@ typedef struct{
 typedef struct
 {
  float x,y,z;
-}vector3;
+}Vector3;
 
 typedef struct
 {
- vector3 m_vPosition;
-	vector3 m_vView;
-	vector3 m_vUpVector;
-	vector3 m_vStrafe;
+ Vector3 m_vPosition;
+	Vector3 m_vView;
+	Vector3 m_vUpVector;
+	Vector3 m_vStrafe;
 }camera3D;
 
 typedef struct tagcoord3D{
- vector3 pos;
- vector3 rot;
+ Vector3 pos;
+ Vector3 rot;
  float   scale;
 }coord3D;
 
@@ -268,14 +268,14 @@ int    AABB_interset(AABB*a1,coord3D*c1,AABB*a2,coord3D*c2);
 
 // ---------------------------------------------
 
-void   vector3_new(vector3*th,float X, float Y, float Z);
-void   vector3_add(vector3*th,vector3*v);
-void   vector3_sub(vector3*th,vector3*v);
-void   vector3_mul(vector3*th,float num);
-void   vector3_div(vector3*th,float num);
-void   vector3_Cross(vector3*vNormal,vector3*vVector1,vector3*vVector2);
-float  vector3_Magnitude(vector3*vNormal);
-void   vector3_Normalize(vector3*vVector);
+void   vector3_new(Vector3*th,float X, float Y, float Z);
+void   vector3_add(Vector3*th,Vector3*v);
+void   vector3_sub(Vector3*th,Vector3*v);
+void   vector3_mul(Vector3*th,float num);
+void   vector3_div(Vector3*th,float num);
+void   vector3_Cross(Vector3*vNormal,Vector3*vVector1,Vector3*vVector2);
+float  vector3_Magnitude(Vector3*vNormal);
+void   vector3_Normalize(Vector3*vVector);
 // ---------------------------------------------
 
 
