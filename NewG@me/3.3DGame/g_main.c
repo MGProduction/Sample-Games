@@ -77,7 +77,7 @@ int       screen_sy=11;
 #define show_drawhome    128
 #define show_drawhome3D  256
 
-int       g_show=0;
+int       g_show=-1;
 
 // --------------------------------------------------------------------
 

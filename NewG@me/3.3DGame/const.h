@@ -13,6 +13,9 @@
 
 #define GFX_OPENGL
 #define SND_OPENAL
+
+#ifdef OS_WIN32
 #define HAVE_STBIMAGE
+#endif
 
 #endif // CONST_H_INCLUDED

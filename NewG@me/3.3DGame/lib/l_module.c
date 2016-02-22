@@ -576,56 +576,56 @@ int AABB_interset(AABB*a1,coord3D*c1,AABB*a2,coord3D*c2)
 //
 //  -------------------------------------------------------------
 
-void vector3_new(vector3*th,float X, float Y, float Z)
+void vector3_new(Vector3*th,float X, float Y, float Z)
 {
     th->x=X;
     th->y=Y;
     th->z=Z;
 }
 
-void vector3_add(vector3*th,vector3*v)
+void vector3_add(Vector3*th,Vector3*v)
 {
     th->x+=v->x;
     th->y+=v->y;
     th->z+=v->z;
 }
 
-void vector3_sub(vector3*th,vector3*v)
+void vector3_sub(Vector3*th,Vector3*v)
 {
     th->x-=v->x;
     th->y-=v->y;
     th->z-=v->z;
 }
 
-void vector3_mul(vector3*th,float num)
+void vector3_mul(Vector3*th,float num)
 {
     th->x*=num;
     th->y*=num;
     th->z*=num;
 }
 
-void vector3_div(vector3*th,float num)
+void vector3_div(Vector3*th,float num)
 {
     th->x/=num;
     th->y/=num;
     th->z/=num;
 }
 
-void vector3_Cross(vector3*vNormal,vector3*vVector1,vector3*vVector2)
+void vector3_Cross(Vector3*vNormal,Vector3*vVector1,Vector3*vVector2)
 {
     vNormal->x = ((vVector1->y * vVector2->z) - (vVector1->z * vVector2->y));
     vNormal->y = ((vVector1->z * vVector2->x) - (vVector1->x * vVector2->z));
     vNormal->z = ((vVector1->x * vVector2->y) - (vVector1->y * vVector2->x));
 }
 
-float vector3_Magnitude(vector3*vNormal)
+float vector3_Magnitude(Vector3*vNormal)
 {
     return (float)sqrt( (vNormal->x * vNormal->x) +
                         (vNormal->y * vNormal->y) +
                         (vNormal->z * vNormal->z) );
 }
 
-void vector3_Normalize(vector3*vVector)
+void vector3_Normalize(Vector3*vVector)
 {
     float magnitude = vector3_Magnitude(vVector);
     vector3_div(vVector,magnitude);
