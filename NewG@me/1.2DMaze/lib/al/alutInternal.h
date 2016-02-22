@@ -10,7 +10,7 @@
 #endif
 
 #include <stdlib.h>
- 
+
 #ifdef WIN32
 #define HAVE_STDINT_H 0
 #define HAVE_STAT 1
@@ -30,7 +30,9 @@
 #if HAVE_STDINT_H
 #include <stdint.h>
 #elif _MSC_VER < 1300
-//typedef char int8_t;
+#if defined(CODEBLOCKS)
+typedef char int8_t;
+#endif
 typedef unsigned char uint8_t;
 typedef short int16_t;
 typedef unsigned short uint16_t;

@@ -499,7 +499,7 @@
 	<stdlib.h>
 	<math.h>
 
-1455833386 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\const.h
+1456094100 c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\const.h
 
 1394389427 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\l\l_module.c
 	"l_module.h"
@@ -603,9 +603,8 @@
 	<sys/time.h>
 	"zip/unzip.h"
 
-1394213439 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_openal.c
+1456094151 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_openal.c
 	"l_module.h"
-	"../al/al.h"
 	"al/al.h"
 
 1394238356 source:c:\users\marco giorgini\documents\github\apps\newg@me\2.2dplatform\lib\l_opengl.c

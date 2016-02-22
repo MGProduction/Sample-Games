@@ -76,18 +76,18 @@ int             bOLDIOS=0;
             ;
         else
             if(fromInterfaceOrientation==UIInterfaceOrientationLandscapeLeft)
-            {os_touch_flip=0;/*os_flip=0;*/}
+            {os_touch_flip=0;}
             else
                 if(fromInterfaceOrientation==UIInterfaceOrientationLandscapeRight)
-                {os_touch_flip=1;/*os_flip=1;*/}        
+                {os_touch_flip=1;}        
     }
     else
     {
         if(fromInterfaceOrientation==UIInterfaceOrientationPortrait)
-        {os_touch_flip=1;/*os_flip=0;*/}
+        {os_touch_flip=1;}
         else
             if(fromInterfaceOrientation==UIInterfaceOrientationPortraitUpsideDown)
-            {os_touch_flip=0;/*os_flip=1;*/}
+            {os_touch_flip=0;}
     }
 }
 
@@ -153,25 +153,15 @@ int             bOLDIOS=0;
     {
         if((os_touch_flip!=1)||(os_portrait!=0))
         {
-            /*if(os_portrait==1)
-             {float t;t=os_video_w;os_video_w=os_video_h;os_video_h=t;}
-             os_portrait=0;*/
             os_touch_flip=1;
-            //[self changeOrientation];
-            //SYSTEM_worldrotate();
         }
     }
     else
         if (interfaceOrientation == UIDeviceOrientationLandscapeRight)
         {
             if((os_touch_flip!=0)||(os_portrait!=0))
-            {
-                /*if(os_portrait==1)
-                 {float t;t=os_video_w;os_video_w=os_video_h;os_video_h=t;}
-                 os_portrait=0;*/
+            {                
                 os_touch_flip=0;
-                //[self changeOrientation];
-                //SYSTEM_worldrotate();
             }
         }  
     return YES;
@@ -220,9 +210,7 @@ int             bOLDIOS=0;
         width*=scale;
         height*=scale;
         os_scale=scale;
-    }
-    
-    //os_portrait=1;
+    }    
     
     UIDeviceOrientation orientation = [UIApplication sharedApplication].statusBarOrientation;
     os_flip=os_touch_flip=0;
@@ -278,7 +266,7 @@ int             bOLDIOS=0;
 
 extern int   os_x[10],os_y[10],os_status[10];
 extern int   os_np,os_flip,os_dblclick;
-int   b_os_x[10],b_os_y[10];
+int          b_os_x[10],b_os_y[10];
 
 - (void) handleTouches:(NSSet*)touches withEvent:(UIEvent*)event
 {
@@ -303,24 +291,10 @@ int   b_os_x[10],b_os_y[10];
                 opx=px = touchLocation.y;
                 opy=py = ( lvideo_h - 1 ) - touchLocation.x;
             } else {
-                opx=px = touchLocation.x;//( lvideo_w - 1) - touchLocation.y;
+                opx=px = touchLocation.x;
                 opy=py = touchLocation.y;
             }
-        if(0)
-            if(os_touch_portrait==1)
-            {
-                px =(int)(lvideo_w-floor(touchLocation.y));
-                py= (int)floor(touchLocation.x);
-                opx =(int)(lvideo_w-floor(ptouchLocation.y));
-                opy= (int)floor(ptouchLocation.x);
-            }
-            else
-            {
-                px =(int)(floor(touchLocation.x));
-                py= (int)floor(touchLocation.y);
-                opx =(int)(floor(ptouchLocation.x));
-                opy= (int)floor(ptouchLocation.y);
-            }
+
         if (myTouch.phase == UITouchPhaseBegan)
         {
             // new touch handler
@@ -418,7 +392,7 @@ int   b_os_x[10],b_os_y[10];
             os_y[i]=(b_os_y[i])*os_scale;
         }
     }
-	//GameTouches( touchCount, points );
+	
 }
 
 - (void) touchesBegan:(NSSet*)touches withEvent:(UIEvent*)event {

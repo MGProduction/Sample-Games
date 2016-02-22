@@ -270,47 +270,23 @@
 			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
 			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
 			>
-			<File
-				RelativePath=".\bld-5.tga"
-				>
-			</File>
-			<File
-				RelativePath=".\build03emp-.md2"
-				>
-			</File>
-			<File
-				RelativePath=".\font.tga"
-				>
-			</File>
-			<File
-				RelativePath=".\ship.md2"
-				>
-			</File>
-			<File
-				RelativePath=".\ship.tga"
-				>
-			</File>
-			<File
-				RelativePath=".\skymap.tga"
-				>
-			</File>
-			<File
-				RelativePath=".\texture.tga"
-				>
-			</File>
 			<Filter
 				Name="win"
 				>
 				<File
-					RelativePath=".\small.ico"
+					RelativePath=".\os_res\win\Resource.h"
 					>
 				</File>
 				<File
-					RelativePath=".\Z@xxonClone.ico"
+					RelativePath=".\os_res\win\small.ico"
 					>
 				</File>
 				<File
-					RelativePath=".\Z@xxonClone.rc"
+					RelativePath=".\os_res\win\Z@xxonClone.ico"
+					>
+				</File>
+				<File
+					RelativePath=".\os_res\win\Z@xxonClone.rc"
 					>
 				</File>
 			</Filter>

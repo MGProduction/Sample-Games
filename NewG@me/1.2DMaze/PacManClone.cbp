@@ -33,6 +33,7 @@
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
+			<Add option="-DCODEBLOCKS" />
 			<Add directory="." />
 			<Add directory="lib" />
 			<Add directory="lib\al" />
