@@ -1133,7 +1133,7 @@ int MAP_delete(INGAMESCENE*s)
 void LEVEL_gfxinit(WORLD*w)
 {
  char nm[256];
- TEXATL_read("ken",&g_ingamescene.textID);
+ TEXATL_read("ken_new",&g_ingamescene.textID);
  #if defined(HAVE_STBIMAGE)
  sprintf(nm,"background.%d.jpg",w->world);
  g_ingamescene.backID=tex_read(nm,0);
