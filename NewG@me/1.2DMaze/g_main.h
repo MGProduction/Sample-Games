@@ -68,6 +68,13 @@ typedef struct tagGAMELOOP{
 #define event_LIVELEFT 3
 #define event_GAMEOVER 4
 
+#if defined(OS_MAC) 
+#define GLFW_KEY_RIGHT              262
+#define GLFW_KEY_LEFT               263
+#define GLFW_KEY_DOWN               264
+#define GLFW_KEY_UP                 265
+#endif
+
 // ---------------------------------------------
 // - GLOBALS
 // ---------------------------------------------

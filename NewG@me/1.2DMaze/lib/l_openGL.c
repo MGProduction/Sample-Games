@@ -109,7 +109,7 @@ void glEnable2D()
         glMatrixMode(GL_PROJECTION);
         glPushMatrix();
         glLoadIdentity();
-#if defined(WIN32) || defined(MAC)
+#if defined(WIN32) || defined(OS_MAC)
         glOrtho(0, vPort[2], 0, vPort[3], -1, 1);
 #else
         glOrthof(0, vPort[2], 0, vPort[3], -1, 1);

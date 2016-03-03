@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'GLTutorial' target in the 'GLTutorial' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+// no-warning -- an empty file is OK
