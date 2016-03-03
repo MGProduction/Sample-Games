@@ -575,6 +575,17 @@ int INGAME_handleUI(WORLD*w)
         w->keys|=dirJUMP;
     if(GetKeyState(VK_F3)&0x80)
      EVENT_set(w,event_LEVELCOMPLETED);
+#elif defined(OS_MAC)
+    if(os_keys[GLFW_KEY_UP])
+        w->keys=dirUP;
+    else if(os_keys[GLFW_KEY_DOWN])
+        w->keys=dirDOWN;
+    else if(os_keys[GLFW_KEY_LEFT])
+        w->keys=dirLEFT;
+    else if(os_keys[GLFW_KEY_RIGHT])
+        w->keys=dirRIGHT;    
+    if(os_keys[GLFW_KEY_SPACE])
+        w->keys|=dirJUMP;      
 #endif
 
     for(i=0; i<os_np; i++)

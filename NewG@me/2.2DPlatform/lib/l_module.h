@@ -17,6 +17,7 @@ typedef unsigned char BYTE;
 #include <gl/gl.h>
 #elif defined(OS_MAC)
 #import <OpenGL/glu.h>
+typedef unsigned char  BYTE;
 #elif defined(OS_ANDROID)
 typedef unsigned char  BYTE;
 typedef unsigned short WORD;
@@ -73,7 +74,7 @@ extern float os_scale;
 extern float os_roll,os_pitch,os_Z;
 extern int   os_x[10],os_y[10],
              os_status[10],
-             os_np;
+             os_np,os_keys[1024];
 extern char  os_szResPath[256];
 extern int   os_portrait,
              os_flip,os_touch_flip;

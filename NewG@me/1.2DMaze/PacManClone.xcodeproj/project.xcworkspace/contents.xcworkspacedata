@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/marcogiorgini/Sample-Games/NewG@me/1.2DMaze/PacManClone.xcodeproj">
+      location = "self:PacManClone.xcodeproj">
    </FileRef>
 </Workspace>

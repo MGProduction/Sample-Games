@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>PacManCloneOsX.xcscheme</key>
+		<key>P@cM@n.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,6 +12,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>2095941F1723594500C543A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>2095944B1723594600C543A5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8D1107260486CEB800E47090</key>
 		<dict>
 			<key>primary</key>

@@ -36,7 +36,7 @@
 
 int   os_portrait=1,os_flip=0,os_touch_flip=0;
 float os_roll=50.0,os_pitch=50.0,os_Z=95.0;
-int   os_x[10],os_y[10],os_status[10],os_np;
+int   os_x[10],os_y[10],os_status[10],os_np,os_keys[1024];
 float os_scale,os_gfxratio=1;
 float os_video_w,os_video_h;
 char  os_szResPath[256];
@@ -60,7 +60,7 @@ int os_getMilliseconds(void)
     return (int)(((double)t_1.QuadPart/(double)t_freq.QuadPart)*1000.0);
 }
 #else
-#if defined(OS_IPHONE) || defined(OS_ANDROID)
+#if defined(OS_IPHONE) || defined(OS_ANDROID) || defined(OS_MAC)
 #include <sys/time.h>
 int curtime;
 int Sys_Milliseconds( void )
