@@ -20,4 +20,6 @@ http://www.classicgaming.cc/classics/pacman/sounds.php
 
 ######The game uses these libraries:######
 
-GLFW (used to create OSX app)
+- openGL
+- openAL + alut
+- GLFW (to create OSX app)
