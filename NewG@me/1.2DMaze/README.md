@@ -1,6 +1,6 @@
 Pac Man Clone
 ====
-This project shows how to build a simple multiplatform game (a simple Pac Man Clone) - using openGL and openAL. CodeBlocks and VS2008 solutions are provided
+This project shows how to build a simple multiplatform game (a simple Pac Man Clone) - using openGL and openAL. Win32 CodeBlocks and VS2008 solutions are provided. You'll find XCode projects for iOS&OSX plus Eclipse project for Android.
 
 Slides for this lesson (in Italian language) are available here: http://slides.com/marcogiorgini/a-simple-2d-game#/
 
@@ -17,3 +17,7 @@ http://www-inst.eecs.berkeley.edu/~cs188/pacman/projects/multiagent/pacman_multi
 
 PAC MAN sounds taken from this site
 http://www.classicgaming.cc/classics/pacman/sounds.php
+
+######The game uses these libraries:######
+
+GLFW (used to create OSX app)
