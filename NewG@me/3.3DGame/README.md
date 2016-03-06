@@ -1,6 +1,6 @@
 Z@xxonClone
 ====
-This project shows how to build a simple multiplatform game (a simple 3D game - vaguely inspired by Zaxxon) - using openGL and openAL. CodeBlocks and VS2008 solutions are provided
+This project shows how to build a simple multiplatform game (a simple 3D game - vaguely inspired by Zaxxon) - using openGL and openAL. CodeBlocks (Win32&Linux) and VS2008 solutions are provided. You'll find XCode projects for iOS&OSX plus Eclipse project for Android.
 
 Slides for this lesson (in Italian language) are available here: http://slides.com/marcogiorgini/a-simple-3d-game#/
 
@@ -16,4 +16,5 @@ Slides for this lesson (in Italian language) are available here: http://slides.c
 - openGL
 - openAL + alut
 - stbi-1.33 - public domain JPEG/PNG reader - http://nothings.org/stb_image.c
+- GLFW (Linux+MacOSX)
 
