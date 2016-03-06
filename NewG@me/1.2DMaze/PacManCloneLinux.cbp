@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="PacManClone" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/P@cM@n" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/P@cM@n" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DCODEBLOCKS" />
+			<Add option="-DLINUX" />
+			<Add option="-D_GLFW_X11" />
+			<Add option="-D_GLFW_GLX" />
+			<Add option="-D_GLFW_USE_OPENGL" />
+			<Add option="-D_GLFW_HAS_XF86VM" />
+			<Add option="-D_GLFW_HAS_XINPUT" />
+			<Add directory="." />
+			<Add directory="lib" />
+			<Add directory="lib/al" />
+			<Add directory="lib/GLFW" />
+		</Compiler>
+		<Linker>
+			<Add library="GL" />
+			<Add library="GLU" />
+			<Add library="X11" />
+			<Add library="Xrandr" />
+			<Add library="Xext" />
+			<Add library="Xinerama" />
+			<Add library="Xcursor" />
+			<Add library="openal" />
+			<Add library="Xxf86vm" />
+			<Add library="pthread" />
+			<Add library="dl" />
+			<Add library="glfw" />
+		</Linker>
+		<Unit filename="const.h" />
+		<Unit filename="g_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="g_main.h" />
+		<Unit filename="l_module.h" />
+		<Unit filename="lib/GLFW/context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/glx_context.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/input.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/linux_joystick.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/linux_joystick.h" />
+		<Unit filename="lib/GLFW/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/posix_time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/posix_tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/vulkan.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/x11_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/x11_monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/x11_platform.h" />
+		<Unit filename="lib/GLFW/x11_window.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/GLFW/xkb_unicode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutBufferData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutCodec.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutError.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutInit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutInputStream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutLoader.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutOutputStream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutUtil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/al/alutVersion.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/l_module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/l_module.h" />
+		<Unit filename="lib/l_openAL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lib/l_openGL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="os/glfw/glfw_main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
