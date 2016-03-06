@@ -117,7 +117,7 @@ void glEnable2D()
         glMatrixMode(GL_PROJECTION);
         glPushMatrix();
         glLoadIdentity();
-#if defined(WIN32) || defined(MAC)
+#if defined(WIN32) || defined(MAC) || defined(OS_LINUX)
         glOrtho(0, vPort[2], 0, vPort[3], -1, 1);
 #else
         glOrthof(0, vPort[2], 0, vPort[3], -1, 1);
@@ -542,12 +542,12 @@ void gfx_drawSPRITE(float x,float y,float w,float h,Texture*textID,float tx,floa
 
         if(alpha!=1.0f)
          glColor4f(1,1,1,alpha);
-         
+
         glDrawArrays(GL_TRIANGLE_STRIP, 0, 4);
-        
+
         if(alpha!=1.0f)
          glColor4f(1,1,1,1);
-                 
+
         os_tris_2d++;
 
         glDisableTexture2D();
