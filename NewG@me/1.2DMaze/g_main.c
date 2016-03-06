@@ -626,9 +626,12 @@ int HOME_action(WORLD*w)
 
 int HOME_draw(WORLD*w)
 {
+    int err;
     gfx_cleanSCREEN();
+    err=glGetError();
 
     drawHOME(w);
+    err=glGetError();
     return 1;
 }
 
@@ -659,7 +662,7 @@ int INGAME_handleUI(WORLD*w)
         w->keys=dirLEFT;
     else if(GetKeyState(VK_RIGHT) & 0x80 )
         w->keys=dirRIGHT;
-#elif defined(OS_MAC)  
+#elif defined(OS_MAC)||defined(OS_LINUX)
     if(os_keys[GLFW_KEY_UP])
         w->keys=dirUP;
     else if(os_keys[GLFW_KEY_DOWN])
@@ -667,7 +670,7 @@ int INGAME_handleUI(WORLD*w)
     else if(os_keys[GLFW_KEY_LEFT])
         w->keys=dirLEFT;
     else if(os_keys[GLFW_KEY_RIGHT])
-        w->keys=dirRIGHT;    
+        w->keys=dirRIGHT;
 #endif
     if(os_np)
     {
