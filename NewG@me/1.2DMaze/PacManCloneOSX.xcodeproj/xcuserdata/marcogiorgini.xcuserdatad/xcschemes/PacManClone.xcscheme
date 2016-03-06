@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3A4CF9151A897D0E00324DBF"
+               BlueprintIdentifier = "8D1107260486CEB800E47090"
                BuildableName = "PacManClone.app"
-               BlueprintName = "PacManClone-OSX"
-               ReferencedContainer = "container:PacManClone.xcodeproj">
+               BlueprintName = "PacManClone"
+               ReferencedContainer = "container:PacManCloneOSX.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A4CF9151A897D0E00324DBF"
+            BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "PacManClone.app"
-            BlueprintName = "PacManClone-OSX"
-            ReferencedContainer = "container:PacManClone.xcodeproj">
+            BlueprintName = "PacManClone"
+            ReferencedContainer = "container:PacManCloneOSX.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -55,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A4CF9151A897D0E00324DBF"
+            BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "PacManClone.app"
-            BlueprintName = "PacManClone-OSX"
-            ReferencedContainer = "container:PacManClone.xcodeproj">
+            BlueprintName = "PacManClone"
+            ReferencedContainer = "container:PacManCloneOSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -74,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3A4CF9151A897D0E00324DBF"
+            BlueprintIdentifier = "8D1107260486CEB800E47090"
             BuildableName = "PacManClone.app"
-            BlueprintName = "PacManClone-OSX"
-            ReferencedContainer = "container:PacManClone.xcodeproj">
+            BlueprintName = "PacManClone"
+            ReferencedContainer = "container:PacManCloneOSX.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
