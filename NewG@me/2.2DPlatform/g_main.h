@@ -8,7 +8,7 @@
 // ---------------------------------------------
 
 typedef struct tagMAP{
- char      *map; 
+ char      *map;
  int        w,rw,h;
  float      sx,sy;
  float      ox,oy;
@@ -47,7 +47,7 @@ typedef struct tagWORLD{
     int  event,event_timer;
     // match vars
     int  tempscore,score;
-    int  lifes;    
+    int  lifes;
     int  world,area;
     // global var
     int  hiscore;
@@ -82,7 +82,7 @@ typedef struct tagGAMELOOP{
 #define event_GAMEOVER 4
 #define event_LEVELCOMPLETED 5
 
-#if defined(OS_MAC) 
+#if defined(OS_MAC) || defined(OS_LINUX)
 #define GLFW_KEY_RIGHT              262
 #define GLFW_KEY_LEFT               263
 #define GLFW_KEY_DOWN               264
