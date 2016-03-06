@@ -30,7 +30,8 @@
 #if HAVE_STDINT_H
 #include <stdint.h>
 #elif _MSC_VER < 1300
-#if defined(CODEBLOCKS)
+#if defined(LINUX)
+#elif defined(CODEBLOCKS)
 typedef char int8_t;
 #endif
 typedef unsigned char uint8_t;

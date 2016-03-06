@@ -5,6 +5,8 @@
 #define OS_WIN32
 #elif defined(MAC)
 #define OS_MAC
+#elif defined(LINUX)
+#define OS_LINUX
 #elif defined(ANDROID_NDK)
 #define OS_ANDROID
 #else

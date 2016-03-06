@@ -7,6 +7,11 @@
 #include <windows.h>
 #endif
 
+#if defined(OS_LINUX) || defined(OS_MAC)
+typedef unsigned char BYTE;
+#include <string.h>
+#endif
+
 #if defined(OS_IPHONE)
 typedef unsigned char BYTE;
 #include <string.h>
@@ -15,6 +20,9 @@ typedef unsigned char BYTE;
 #if defined(GFX_OPENGL)
 #if defined(OS_WIN32)
 #include <gl/gl.h>
+#elif defined(OS_LINUX)
+#include <GL/glx.h>    /* this includes the necessary X headers */
+#include <GL/gl.h>
 #elif defined(OS_MAC)
 #import <OpenGL/glu.h>
 #elif defined(OS_ANDROID)
@@ -73,7 +81,7 @@ extern float os_scale;
 extern float os_roll,os_pitch,os_Z;
 extern int   os_x[10],os_y[10],
              os_status[10],
-             os_np;
+             os_np,os_keys[1024];
 extern char  os_szResPath[256];
 extern int   os_portrait,
              os_flip,os_touch_flip;

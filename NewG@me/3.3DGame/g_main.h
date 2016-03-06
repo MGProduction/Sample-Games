@@ -58,6 +58,14 @@ typedef struct tagGAMELOOP{
 #define dirLEFT   3
 #define dirRIGHT  4
 
+#if defined(OS_MAC) || defined(OS_LINUX)
+#define GLFW_KEY_RIGHT              262
+#define GLFW_KEY_LEFT               263
+#define GLFW_KEY_DOWN               264
+#define GLFW_KEY_UP                 265
+#define GLFW_KEY_SPACE              32
+#endif
+
 #define event_none      0
 #define event_GETREADY  1
 #define event_EXPLOSION 2

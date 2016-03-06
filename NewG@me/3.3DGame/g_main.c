@@ -696,6 +696,21 @@ int INGAME_handleUI(WORLD*w)
             w->keys=dirLEFT;
         else if(GetKeyState(VK_RIGHT) & 0x80 )
             w->keys=dirRIGHT;
+#elif defined(OS_MAC)||defined(OS_LINUX)        
+        if(os_keys[GLFW_KEY_UP])
+        {
+            if(w->hview<3.0f)
+                w->hview+=0.2f;
+        }
+        else if(os_keys[GLFW_KEY_DOWN])
+        {
+            if(w->hview>0.6)
+                w->hview-=0.2f;
+        }
+        else if(os_keys[GLFW_KEY_LEFT])
+            w->keys=dirLEFT;
+        else if(os_keys[GLFW_KEY_RIGHT])
+            w->keys=dirRIGHT;        
 #endif
         for(i=0; i<os_np; i++)
         {
