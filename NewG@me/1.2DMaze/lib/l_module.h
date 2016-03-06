@@ -12,9 +12,17 @@ typedef unsigned char BYTE;
 #include <string.h>
 #endif
 
+#if defined(OS_LINUX)
+typedef unsigned char BYTE;
+#include <string.h>
+#endif
+
 #if defined(GFX_OPENGL)
 #if defined(OS_WIN32)
 #include <gl/gl.h>
+#elif defined(OS_LINUX)
+#include <GL/glx.h>    /* this includes the necessary X headers */
+#include <GL/gl.h>
 #elif defined(OS_MAC)
 #import <OpenGL/glu.h>
 typedef unsigned char  BYTE;

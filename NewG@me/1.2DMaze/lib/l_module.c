@@ -60,7 +60,7 @@ int os_getMilliseconds(void)
     return (int)(((double)t_1.QuadPart/(double)t_freq.QuadPart)*1000.0);
 }
 #else
-#if defined(OS_IPHONE) || defined(OS_MAC) || defined(OS_ANDROID)
+#if defined(OS_IPHONE) || defined(OS_MAC) || defined(OS_ANDROID)||defined(OS_LINUX)
 #include <sys/time.h>
 int curtime;
 int Sys_Milliseconds( void )
