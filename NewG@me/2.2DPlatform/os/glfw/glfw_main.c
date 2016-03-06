@@ -102,6 +102,23 @@ static void key_callback(GLFWwindow* window, int key, int scancode, int action, 
     }
 }
 
+#if defined(OS_LINUX)
+void S_getpath(const char*filename,char*path)
+{
+ int l=strlen(filename);
+ if(filename!=path)
+  strcpy(path,filename);
+ while(l--)
+  if((filename[l]!='/')&&(filename[l]!='\\'))
+   ;
+  else
+  {
+   path[l+1]=0;
+   break;
+  }
+}
+#endif
+
 #ifdef OS_WIN32
 int WINAPI WinMain(HINSTANCE hInstance,
                    HINSTANCE hPrevInstance,
@@ -109,9 +126,10 @@ int WINAPI WinMain(HINSTANCE hInstance,
                    int nCmdShow)
 #else
 int main(int argc, char** argv)
-#endif                   
+#endif
 {
     int running = GLFW_TRUE;
+    char path[ 1024 ]="";
     int left, top, right, bottom;
     int fit=1000/30;
     GLFWwindow* windows;
@@ -124,7 +142,7 @@ int main(int argc, char** argv)
     // --- glfwWindowHint(GLFW_DECORATED, GLFW_FALSE);
     glfwWindowHint(GLFW_VISIBLE, GLFW_FALSE);
     glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-    // --- glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,2);
+    glfwWindowHint(GLFW_DOUBLEBUFFER,GLFW_TRUE);
 
     windows = glfwCreateWindow(320*2, 240*2, "2DWorld",  NULL, NULL);
     if (!windows)
@@ -132,7 +150,7 @@ int main(int argc, char** argv)
         glfwTerminate();
         exit(EXIT_FAILURE);
     }
-    
+
     glfwSetKeyCallback(windows, key_callback);
     glfwSetCursorPosCallback(windows, cursor_pos_callback);
     glfwSetMouseButtonCallback(windows, mouse_callback);
@@ -148,31 +166,36 @@ int main(int argc, char** argv)
                          100 + (i >> 1) * (200 + top + bottom));*/
 
     glfwShowWindow(windows);
-    
-    if(!GAME_init(&g_W,"",320*2,240*2))
+
+    #if defined(OS_LINUX)
+    readlink( "/proc/self/exe", path, 1024 );
+    S_getpath(path,path);
+    #endif
+    if(!GAME_init(&g_W,path,320*2,240*2))
     {
         glfwTerminate();
         exit(EXIT_FAILURE);
-    }    
+    }
 
     while (running)
     {
-      int it=os_getMilliseconds();
-      
+      int it=os_getMilliseconds(),err;
+
       glfwMakeContextCurrent(windows);
       glClear(GL_COLOR_BUFFER_BIT);
-      
+
       GAME_loop(&g_W);
-      
-      glfwSwapBuffers(windows); 
+      err=glGetError();
+
+      glfwSwapBuffers(windows);
 
       if (glfwWindowShouldClose(windows))
           running = GLFW_FALSE;
-      
+
       while(os_getMilliseconds()-it<fit)
        glfwPollEvents();
     }
-    
+
     GAME_reset(&g_W);
 
     glfwTerminate();
